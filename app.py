@@ -8,7 +8,7 @@ import io
 app = Flask(__name__)
 
 # تحميل النموذج
-model = torch.jit.load('model.pt')
+model = torch.jit.load('yolov8_license_plate.pt')
 model.eval()
 
 # تعريف التحويلات اللازمة
