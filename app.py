@@ -10,7 +10,7 @@ import numpy as np
 app = Flask(__name__)
 
 # تحميل النموذج
-model = YOLO('assets/yolov8_license_plate.pt')
+model = YOLO('yolov8_license_plate.pt')
 
 def get_dominant_color(image):
     """تحليل اللون الغالب في الصورة"""
